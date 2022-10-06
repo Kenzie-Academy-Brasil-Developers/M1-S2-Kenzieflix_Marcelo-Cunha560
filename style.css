@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{   
+    background-color: rgba(6, 6, 6, 0.9455);
+
+}
+
+span{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    color: white;
+    box-sizing: border-box;
+    text-align: center;    
+    margin-bottom: 100px;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+}
+    
+.usuario{
+    height: 160px;
+    max-width: 160px;
+    width: 100%;
+    margin: auto; 
+    align-content: center;
+}
+
+.usuario img{
+    background-color:  rgba(6, 6, 6, 0.9455);;
+    height: 160px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+.nome{
+    display: block;
+    color: white;
+    justify-content: center;
+    margin-left: 56px;
+    padding-top: 18px;
+    text-decoration: none;
+}
+
+.position{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.button{
+    background-color: rgba(6, 6, 6, 0.9455);
+    border-radius: 10px;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    border: solid white;
+    text-decoration: none;
+    
+    
+}
+
+.button:hover{
+    border: solid 2px white;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;    
+}
+
+
+
