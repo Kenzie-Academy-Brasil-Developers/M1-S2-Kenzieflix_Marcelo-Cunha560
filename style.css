@@ -27,39 +27,28 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
     text-align: center;
     object-fit: cover;
-    background-position: center center;
-    
+    line-height: 100%;
 }
 
 .usuario{
-    width: 80%;
-    display: block;
-    margin: auto;
+    display: flex;
     width: 160px;
     height: 160px;
-    margin: 5px;
-
+    margin: 7px;
+    background-color: rgb(50, 44, 44);
+    border-radius: 10px;
 }
 
-/* .usuario2{
-    display: flex;
-    flex-direction: column;
-    width: 127px;
-} */
 
 .usuario > a >img{
     border-radius: 10px;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
-div span{
-    display: inline-block;
-    margin-top: 20px;
+a{
     text-decoration: none;
     color: rgb(97, 94, 94);
 }
@@ -69,13 +58,7 @@ div span{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: 160px;
-    width: 160px;
 }
-/* .boxPlus{
-    height: 127px;
-    width: 127px;
-} */
 
 div.button{
     height: 70px;
@@ -100,18 +83,16 @@ button{
     font-size: 16px;
 }
 
-.usuario:hover{
+a:hover{
     border-radius: 10px;
     border: solid white 3px;
     transition-duration: 0.1s;
     transition-delay: 0.1s;
+    color: white;
+    height: 100%;
 }
 
-span:hover{
-    color: white;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-}
+
 
 button:hover{
     background-color: white;
