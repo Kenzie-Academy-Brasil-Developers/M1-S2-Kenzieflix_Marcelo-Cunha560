@@ -33,19 +33,33 @@ h1{
 }
 
 .usuario{
-    display: flex;
+    display: block;
     width: 160px;
     height: 160px;
     margin: 7px;
     background-color: rgb(50, 44, 44);
     border-radius: 10px;
+} 
+
+.usuario a{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.usuario p{
+    color: white;
 }
 
 
 .usuario > a >img{
     border-radius: 10px;
     object-fit: cover;
-    margin-bottom: 20px;
 }
 
 a{
